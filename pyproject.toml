@@ -1,0 +1,27 @@
+[project]
+name = "smart-college-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "jsonpatch>=1.33",
+    "langchain>=1.4.3",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.7",
+    "langchain-google-genai>=4.4.0",
+    "langchain-huggingface>=1.2.3",
+    "langchain-openai>=1.6.7",
+    "langchain-tavily>=0.2.18",
+    "langchain-text-splitters>=1.1.3",
+    "langgraph>=1.2.14",
+    "pillow>=12.3.0",
+    "pymupdf>=1.28.2",
+    "pypdf>=6.19.0",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.1.0",
+    "streamlit>=1.65.0",
+]
